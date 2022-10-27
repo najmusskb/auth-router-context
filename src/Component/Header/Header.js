@@ -5,11 +5,11 @@ const Header = () => {
     return (
         <div>
            
-            <div className="navbar bg-primary text-primary-content p-7">
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
-                <Link  to={'/'}>Home</Link>
-                <Link className='m-6' to={'/login'}>Login</Link>
-                <Link to={'/register'}>Resgister</Link>
+            <div className="navbar bg-primary text-primary-content">
+                <Link to={'/link'} className="btn btn-ghost normal-case text-xl">Bengal Software</Link>
+                <Link className="btn btn-ghost normal-case text-xl"  to={'/'}>Home</Link>
+                <Link className="btn btn-ghost normal-case text-xl"  to={'/login'}>Login</Link>
+                <Link className="btn btn-ghost normal-case text-xl" to={'/register'}>Resgister</Link>
             </div>
         </div>
     );
